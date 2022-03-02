@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+h1, p, h3, h4{
+    margin: 0;
+}
+
+
+.Background{
+/*     
+    width: 100%; */
+    /* height: 100vh; */
+    background-image: url("images/retro-living-room-interior-design.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.grid-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.product_div, .checkout_div{
+    /* border: 1px solid #fff; */
+    height: 100vh;
+    position: relative;
+}
+
+.product_details{
+    height:60%;
+    width: 50%;
+    background-color: #ffffff30;
+    backdrop-filter: blur(24px);
+    border-radius: 15px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product_img{
+    height: 40%;
+}
+
+.chair{
+    width: 60%;
+    position: absolute;
+    left: 19%;
+    top: -12%;    
+}
+
+.product_data{
+    margin: auto 41px;
+}
+
+/* .product_h1{
+    color: #fff;
+} */
+
+.product_p{
+    color: rgb(219, 219, 219);
+}
+
+
+.fa-star{
+    color: #FC7E7E;
+}
+
+.quantity{
+    /* color: #fff; */
+    margin-top: 10px;
+}
+
+.count{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 23px;
+    margin-left: 20px;
+}
+
+span{
+    font-size: 20px;
+}
+
+.minus{
+    margin-right: 18px;
+}
+
+.prise_h1{
+    /* color: #fff; */
+    font-size: 42px;
+    float: left;
+}
+
+.prise_h4{
+    color: rgb(116 154 179);
+    text-decoration: line-through;
+    padding: 18px 0 0 186px;
+    margin-bottom: 22px;
+}
+
+.shipping_charges, .tax_charges, .total_charges{
+    display: flex;
+    justify-content: space-between;
+    /* color: #fff; */
+    font-size: 16px
+}
+
+.tax_charges{
+    margin-top: 10px;
+}
+
+.total_charges{
+    font-size: 20px;
+}
+
+.payment_div{
+    height:98vh;
+    width: 100%;
+    background-color: #ffffff30;
+    backdrop-filter: blur(24px);
+    padding-top: 20px;
+}
+
+.back{
+    display: flex;   
+    /* color: #fff; */
+    padding: 20px;
+    font-size: 24px;
+}
+
+.fa-arrow-left{
+    padding-top: 5px;
+}
+
+.backto{
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+.mode{
+    /* color: #fff; */
+    margin-left: 57px;
+}
+
+.card_options{
+    background-color: #fff;
+    height: 65px;
+    margin: 25px 57px;
+    border-radius: 50px;
+    display: flex;
+}
+
+.credit_card, .debit_card{
+    width: 50%;
+    height: 65px;
+    border-radius: 50px;
+    background-color: #184864;
+}
+
+.credit_h4, .debit_h4{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.debit_card{
+    background-color: #ffffff;
+    color: #184864;
+}
+.details{
+    margin-top: 47px;
+}
+
+.card_details, .name, .dates, .save{
+    margin-top: 45px;
+}
+
+.card_number, .card_name, .expiry_date, .card_cvv{
+    margin: auto 57px;
+    font-size: 20px;
+}
+
+
+.card_number_inp, .card_name_inp, .card_expiry_inp, .card_cvv_inp{
+    width: 87%;
+    margin: auto 57px;
+    height: 50px;
+    border: none;
+    border-bottom: 2px solid #fff;
+    background: none;
+}
+
+::placeholder{
+    font-size: 18px;
+    color: #e6e6e690;
+}
+
+input[type="text"]{
+    outline: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+.dates, .save{
+    display: flex;
+}    
+
+.cvv{
+    margin-left: 16%;
+}
+
+
+.card_expiry_inp, .card_cvv_inp{
+    width: 100%;
+}
+
+.savefuture{
+    font-size: 15px;
+    margin-left: 57px;
+}
+
+.check{
+    margin: 5px;
+    border: none;
+}
+
+.checkout{
+    height: 65px;
+    margin: 25px 57px;
+}
+
+.payment_btn{
+    height: 100%;
+    width: 100%;
+    background-color: #184864;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 2px 2px #00000010;   
+    font-family: 'Poppins', sans-serif; 
+}
+
+.checkout_h1{
+    color: #fff;
+}

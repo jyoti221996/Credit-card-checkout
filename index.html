@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit-card-checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+    <div class="Background">
+        <div class="grid-div">
+            <div class="product_div">
+                <div class="product_details">
+                    <div class="product_img">
+                        <img src="/images/Component 1.png" alt="chair" class="chair">
+                    </div>
+                    <div class="product_data">
+                        <h1 class="product_h1">Soft Sofa Chair</h1>
+                        <p class="product_p">Soft sofa chair is a best chair for daily use.</p>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star"></i>
+                        <div class="quantity">
+                            <label for="quantity">Quantity :</label>
+                            <button class="count"><span class="minus">-</span><span class="minus">1</span><span>+</span></button>
+                        </div>
+
+                        <div class="prise">
+                            <h1 class="prise_h1">Rs. 1200</h1>
+                            <h4 class="prise_h4">Rs. 1500</h4>
+                        </div>
+                        <hr>
+                        <div class="shipping_charges">
+                            <p class="shipchrg">Shipping charges</p>
+                            <p class="value">Rs. 90</p>
+                        </div>
+
+                        <div class="tax_charges">
+                            <p class="taxchrg">Tax</p>
+                            <p class="txvalue">Rs. 240</p>
+                        </div>
+                        <hr>
+                        <div class="total_charges">
+                            <h3 class="total">Total</h3>
+                            <h3 class="tvalue">Rs. 1530</h3>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="checkout_div">
+                <div class="payment_div">
+                    <div class="back">
+                        <i class="fa-solid fa-arrow-left"></i>
+                        <h4 class="backto">Back to products</h4>
+                    </div>
+
+                    <h2 class="mode">Select payment methods</h2>
+
+
+                    <div class="details">
+                    <div class="card_options">
+                        <div class="credit_card">
+                            <h4 class="credit_h4">Credit card</h4>
+                        </div>
+
+                        <div class="debit_card">
+                            <h4 class="debit_h4">Debit card</h4>
+                        </div>
+                    </div>
+
+                    <div class="card_details">
+                        <div class="number">
+                            <label for="card number" class="card_number">Card number</label><br>
+                            <input type="text" class="card_number_inp" placeholder="---- ---- ---- ----">
+                        </div>
+
+                        <div class="name">
+                            <label for="name" class="card_name">Card holder</label><br>
+                            <input type="text" class="card_name_inp" placeholder="Name">
+                        </div>
+                        
+                        <div class="dates">
+                        <div class="expiry">
+                            <label for="date" class="expiry_date">Expiry date</label><br>
+                            <input type="text" class="card_expiry_inp" placeholder="MM/YY">
+                        </div>
+                        <div class="cvv">
+                            <label for="cvvno" class="card_cvv">CVV</label><br>
+                            <input type="text" class="card_cvv_inp" placeholder="---">
+                        </div>
+                    </div>
+
+                    <div class="save">
+                        <p class="savefuture">Save for future</p>
+                        <input type="checkbox" class="check">
+                    </div>
+
+                    <div class="checkout">
+                        <button class="payment_btn"><h1 class="checkout_h1">Make payment</h1></button>
+                    </div>
+
+                    </div>
+
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
